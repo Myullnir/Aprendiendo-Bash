@@ -1,0 +1,7 @@
+24/12/2019
+---------------------------------------------
+Al parecer el problema de los programas que me tiraba un "\r no se encontró la orden"
+Se puede solucionar transformando el programa a Unix. Para eso, hay que correr el programa
+en la línea de comando usando "dos2unix ./Nombre.sh". Voy a armar un programa en Bash que
+haga eso con todos los programas que reciba y que les cambie además los permisos
+
